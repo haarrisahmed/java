@@ -3,21 +3,21 @@ class java
 {
 public static void main(String[] args)
 {
-  int a;
+  int x;
   Scanner s=new Scanner(System.in);
   System.out.println("Enter the number:");
-  a=s.nextInt();
-  if(a>0)
+  x=s.nextInt();
+  if(x>0)
     {
-    System.out.println("The Number is positive:"+a);
+    System.out.println("The Number is positive:"+x);
     }
-  else if(a<0)
+  else if(x<0)
     {
-    System.out.println("The Number is negative:"+a);
+    System.out.println("The Number is negative:"+x);
     }
   else
     {
-    System.out.println("The Number is equal to zero:"+a);
+    System.out.println("The Number is equal to zero:"+x);
     }
   }
 }
